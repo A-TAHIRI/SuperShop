@@ -865,11 +865,15 @@
     transform: rotate3d(0, 1, 0, -180deg);
   }
   /* videos -start */
+  .video{
+  
+  }
   .video-responsive { 
     overflow:hidden; 
     padding-bottom:56.25%; 
     position:relative; 
     height:0;
+   
     }
     .video-responsive iframe {
     left:0; 
@@ -879,7 +883,7 @@
     position:absolute;
     }
     .clearfix{
-      background-color:rgba(198,19,52,255);
+      background-color:#602b1c;
       display: flex;
       height: 5px;
      }       
