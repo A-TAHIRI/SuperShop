@@ -16,6 +16,8 @@
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 		<link rel="stylesheet" href="./css/style.css">
 		<link rel="icon" href="./images/logo.png"> {% block stylesheets %}{% endblock %}{% block javascripts %}{% endblock %}
+            {{ encore_entry_link_tags('app') }}
+            {{ encore_entry_script_tags('app') }}
 		{{ encore_entry_link_tags('app') }}
 		{{ encore_entry_script_tags('app') }}
 	</head>
