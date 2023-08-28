@@ -37,8 +37,7 @@ $(document).click(function (event) { //click anywhere
     if (_opened === true && !clickover.hasClass("navbar-toggler")) { // if _opened is true and clickover(element we clicked) doesn't have 'navbar-toggler' class
         $(".navbar-toggler").click(); //toggle the navbar; close the navbar menu in mobile.
     }
+   
 });
 })
-   
-
 
